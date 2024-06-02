@@ -17,14 +17,10 @@
 </head>
 <body>
 
-@include('layouts.header')
-
-
 <div class="container_fluid">
-@yield('content')
+    @yield('content')
 
 </div>
-@include('layouts.footer')
 
 @include('layouts.scripts_second')
 </body>
