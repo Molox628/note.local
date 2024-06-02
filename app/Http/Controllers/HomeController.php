@@ -23,6 +23,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return "1212";
+        return view('page.profile.main');
     }
 }

@@ -1,4 +1,4 @@
-<footer class="position-relative" id="footer-main">
+<footer class="footer_block position-relative " id="footer-main">
     <div class="footer footer-dark bg-dark">
 
         <div class="container">

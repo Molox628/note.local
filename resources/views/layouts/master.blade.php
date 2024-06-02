@@ -16,16 +16,18 @@
 
 </head>
 <body>
-
+<div class="wrapper">
 @include('layouts.header')
 
 
-<div class="container_fluid">
+<div class="content container_fluid">
 @yield('content')
 
 </div>
+
 @include('layouts.footer')
 
+</div>
 @include('layouts.scripts_second')
 </body>
 </html>

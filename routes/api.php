@@ -3,7 +3,6 @@
 use  Illuminate\Support\Facades\Route;
 
 
-Route::get('/suka', function () {
-    return 'Hello World';
-});
+Route::apiResource('v1/notebook', NotebookController::class);
+
 
