@@ -1,5 +1,6 @@
 
 
+
 <!-- Core JS  -->
 <script src="{{ asset('assets/libs/jquery/dist/jquery.min.js') }}"></script>
 <script src="{{ asset('assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js') }}"></script>
@@ -13,7 +14,13 @@
 <script src="{{ asset('assets/libs/jquery.scrollbar/jquery.scrollbar.min.js') }}"></script>
 <script src="{{ asset('assets/libs/jquery-scroll-lock/dist/jquery-scrollLock.min.js') }}"></script>
 
+
+<script src="{{ asset('assets/libs/flatpickr/dist/flatpickr.min.js') }}"></script>
+<script src="{{ asset('assets/libs/select2/dist/js/select2.min.js') }}"></script>
+<script src="{{ asset('assets/libs/progressbar.js/dist/progressbar.min.js') }}"></script>
+
 <script src="{{ asset('assets/js/quick-website.js') }}"></script>
+
 
 <script>
 

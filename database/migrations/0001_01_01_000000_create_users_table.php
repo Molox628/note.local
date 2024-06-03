@@ -18,6 +18,9 @@ return new class extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->string('avatar')->nullable(); // Поле для аватарки
+            $table->string('birthday')->default('');
+            $table->string('phone')->default('');
+            $table->string('company')->default('');
             $table->rememberToken();
             $table->timestamps();
         });
